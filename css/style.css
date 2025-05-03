@@ -1,0 +1,593 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #4e4e4e;
+}
+h5 {
+  font-family: "Chau Philomene One", sans-serif;
+}
+h3 {
+  font-family: "Chau Philomene One", sans-serif;
+
+}
+
+
+
+
+
+/* nav-start */
+nav {
+  background: rgba(0, 0, 0, 0.475);
+  border:1px solid #dca3136b ;
+}
+.navbar-nav .nav-link.active{
+color: #fff;
+}
+.navbar-nav .nav-link{
+color: #fff;
+}
+.navbar-expand-lg .navbar-nav a {
+position: relative;
+
+}
+.navbar-expand-lg .navbar-nav a::before{
+content: " ";
+width: 0%;
+height:4%;
+background-color: #fff;
+position: absolute;
+bottom: 0;
+transition: 0.3s 0.1s all;
+}
+
+
+
+nav .navbar-brand {
+font-size: 28px;
+color: #dca413;
+letter-spacing: 1px;
+transition: 0.3s 0.1s all;
+}
+
+nav .navbar-brand:hover {
+  color:#d5d5d5;
+}
+nav .navbar-nav .nav-link.active
+{
+transition: 0.3s all;
+color: #d5d5d5;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  color: #dca413;
+  transition: 0.3s 0.1s all;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  color:#d5d5d5;
+}
+nav .logo-img {
+  width: 100px;
+  
+}
+
+nav .navbar-brand {
+  position: absolute;
+  top: 15%;
+  left: 48%; 
+  z-index: 1000;
+}
+@media screen and (max-width:1107px) {
+  nav .navbar-brand {
+    position: absolute;
+    top: 15%;
+    left: 53%; 
+    z-index: 1000;
+  }
+}
+
+@media screen and (max-width:990.40px) {
+  nav .navbar-brand {
+    position: absolute;
+    top: 15%;
+    left: 10%; 
+    z-index: 1000;
+  }
+}
+
+/* nav-end */
+
+/* home-start */
+#home{
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../img/heead.jpeg);
+  background-position: center;
+  background-attachment :fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media  screen and (max-width: 1024px) {
+  #home {
+    background-attachment :scroll;
+  }
+
+}
+
+.type::after {
+  content: "Football|";
+  
+  animation: typing 10s infinite;
+}
+#home h1 {
+  font-size: 72px;
+  font-family: "Righteous", sans-serif;
+  
+}
+
+@media  screen and (max-width: 576px) {
+#home h1 {
+  font-size: 55px;
+  
+  
+}
+
+.type::after {
+  font-size: 35px;
+}
+
+.ul-demo {
+  flex-direction: row;
+}
+
+}
+@keyframes typing {
+0% {
+  content: "Footbal|";
+}
+1% {
+    content: "Footba|";
+  }
+2% {
+    content: "Footb|";
+  }
+  3% {
+    content: "Foot|";
+  }
+  4% {
+    content: "Foo|";
+  }
+  5% {
+    content: "Fo|";
+  }
+  6% {
+    content: "F|";
+  }
+  7% {
+    content: "F|";
+  }
+  8% {
+    content: "Fi|";
+  }
+  9% {
+    content: "Fit|";
+  }
+  10% {
+    content: "Fitn|";
+  }
+  11% {
+    content: "Fitne|";
+  }
+  12% {
+    content: "Fitnes|";
+  }
+  12% {
+    content: "Fitness |";
+  }
+  13% {
+    content: "Fitness |";
+  }
+  14% {
+    content: "Fitness |";
+  }
+  15% {
+    content: "Fitness |";
+  }
+  16% {
+    content: "Fitness |";
+  }
+
+  17% {
+    content: "Fitness |";
+  }
+  18% {
+    content: "Fitness |";
+  }
+
+  19% {
+    content: "Fitness |";
+  }
+  20% {
+    content: "Fitnes|";
+  }
+  21% {
+    content: "Fitne|";
+  }
+  22% {
+    content: "Fitn|";
+  }
+  23% {
+    content: "Fi|";
+  }
+
+  24% {
+    content: "F|";
+  }
+  25% {
+    content: "|";
+  }
+  26% {
+    content: "A|";
+  }
+  27% {
+    content: "Ana|";
+  }
+  28% {
+    content: "Anal|";
+  }
+  29% {
+    content: "Analy|";
+  }
+  30% {
+    content: "Analys|";
+  }
+  31% {
+    content: "Analysi|";
+  }
+  32% {
+    content: "Analysis |";
+  }
+  33% {
+    content: "Analysis |";
+  }
+  34% {
+    content: "Analysis |";
+  }
+  35% {
+    content: "Analysis |";
+  }
+  36% {
+    content: "Analysis |";
+  }
+  37% {
+    content: "Analysis |";
+  }
+  38% {
+    content: "Analysis |";
+  }
+  39% {
+    content: "Analysis |";
+  }
+  40% {
+    content: "Analysis |";
+  }  
+  41% {
+    content: "Analysis |";
+  }
+  42% {
+    content: "Analysis |";
+  }
+  43% {
+    content: "Analysis |";
+  }
+  44% {
+    content: "Analysis |";
+  }
+  45% {
+    content: "Analysis |";
+  }
+  46% {
+    content: "Analysi|";
+  }
+  47% {
+    content: "Analys|";
+  }
+  48% {
+    content: "Analy|";
+  }
+  49% {
+    content: "Anal|";
+  }
+  50% {
+    content: "Ana|";
+  }
+  51% {
+    content: "An|";
+  }
+  52% {
+    content: "A|";
+  }
+  53% {
+    content: "|";
+  }
+  54% {
+    content: "M|";
+  }
+  55% {
+    content: "Mo|";
+  }
+  56% {
+    content: "Mon|";
+  }
+  57% {
+    content: "Mont|";
+  }
+  58% {
+    content: "Month|";
+  }
+  59% {
+    content: "Monthl|";
+  }
+  60% {
+    content: "Monthly|";
+  }
+  61% {
+    content: "Monthly |";
+  }
+  62% {
+    content: "Monthly t|";
+  }
+  63% {
+    content: "Monthly te|";
+  }
+  64% {
+    content: "Monthly tes|";
+  }
+  65% {
+    content: "Monthly test |";
+  }
+  66% {
+    content: "Monthly tests |";
+  }
+  67% {
+    content: "Monthly tests |";
+  }
+  68% {
+    content: "Monthly tests |";
+  }
+  69% {
+    content: "Monthly tests |";
+  }
+  70% {
+    content: "Monthly tests |";
+  }
+  71% {
+    content: "Monthly tests |";
+  }
+  72% {
+    content: "Monthly tests |";
+  }
+  73% {
+    content: "Monthly tests |";
+  }
+  74% {
+    content: "Monthly tests |";
+  }
+  75% {
+    content: "Monthly tests |";
+  }
+  76% {
+    content: "Monthly test|";
+  }
+  77% {
+    content: "Monthly tes|";
+  }
+  78% {
+    content: "Monthly te|";
+  }
+  79% {
+    content: "Monthly t|";
+  }
+  80% {
+    content: "Monthly |";
+  }
+  81% {
+    content: "Monthly|";
+  }
+  82% {
+    content: "Monthl|";
+  }
+  83% {
+    content: "Month|";
+  }
+  84% {
+    content: "Mont|";
+  }
+  85% {
+    content: "Mon|";
+  }
+  86% {
+    content: "Mo|";
+  }
+  87% {
+    content: "M|";
+  }
+  88% {
+    content: "|";
+  }
+  89% {
+    content: "F|";
+  }
+  90% {
+    content: "Fo|";
+  }
+  91% {
+    content: "Foo|";
+  }
+  92% {
+    content: "Foot|";
+  }
+  93% {
+    content: "Footb|";
+  }
+  94% {
+    content: "Footba|";
+  }
+  95% {
+    content: "Footbal|";
+  }
+  96% {
+    content: "Football |";
+  }
+  97% {
+    content: "Football |";
+  }
+  98% {
+    content: "Football |";
+  }
+  99% {
+    content: "Football |";
+  }
+  100% {
+    content: "Football |";
+  }
+
+}
+/* home-end */
+
+/* about-start */
+#about {
+  padding-top: 64px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../img/abstract-polygonal-shape-black-background-free-vector.jpg);
+  background-position: center;
+  background-attachment :fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media  screen and (max-width: 1024px) {
+  #about {
+    background-attachment :scroll;
+  }
+
+}
+#about p {
+  font-size: 17px;
+  direction: rtl;
+  
+}
+
+nav .navbar-brand {
+  font-size: 28px;
+}
+#about .demo {
+  padding: 64px 48px;
+  background-color: #f5b30e4b;
+  box-shadow:  0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media  screen and (max-width: 576px) {
+  #about .demo {
+    padding: 64px 20px;
+    
+   }
+
+
+}
+
+
+
+#about ul {
+  font-size: 16px;
+  direction: rtl;
+  
+}
+#about .ul-p {
+  font-size: 15px;
+  font-weight: 600;
+}
+@media (max-width: 992px) {
+  #about .col-md-6 {
+      flex: 0 0 auto;
+      width: 100%;
+  }}
+  #about .col-md-6 img {
+    margin-top: 30px;
+
+  }
+
+
+
+/* about-end */
+
+/* services-start */
+#services {
+  padding-top: 64px;
+  
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../img/wmremove-transformed.jpeg);
+  background-position: center;
+  background-attachment :fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#services h5 {
+  color: #dca413;
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#services p {
+  direction: rtl;
+  
+}
+#services .card .card-body {
+  height: 250px ;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#services .card .card-body {
+  height: 250px ;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media  screen and (max-width: 992px) {
+  #services .card .card-body {
+    height: fit-content ;
+  }
+  #services .card .card-2 {
+    padding-bottom: 36px;
+  }
+}
+.card p {
+  font-size: 14px;
+  font-weight: 600;
+  
+}
+.ser-list {
+  direction: rtl;
+  font-size: 12px;
+  font-weight: 600;
+}
+#services h3 {
+  color: #dca413;
+}
+@media  screen and (max-width: 1024px) {
+  #services {
+    background-attachment :scroll;
+  }
+
+}
+#services .card{
+border-color: #dca413;
+  background-color: rgba(0, 0, 0, 0.588);
+ }
+/* service-end */
+
+/* scrollsec-start */
+
+
+/* scrollsec2-end */
+
+/* blog-start */
