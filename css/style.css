@@ -525,6 +525,7 @@ nav .navbar-brand {
 /* services-start */
 #services {
   padding-top: 64px;
+  padding-bottom: 20px;
   
   background: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../img/wmremove-transformed.jpeg);
   background-position: center;
@@ -586,6 +587,31 @@ border-color: #dca413;
 /* service-end */
 
 /* scrollsec-start */
+#scrollsec {
+  padding: 80px 0px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.505),rgba(0, 0, 0, 0.505)),url(../img/scroll.jpeg);
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#scrollsec .demo {
+  padding: 64px 48px;
+  background-color: #f5b30e4b;
+  box-shadow:  0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.table>:not(caption)>*>* {
+  background-color: rgba(0, 0, 0, 0.688);
+  color: white;
+  border: solid 1px white;
+  direction: rtl;
+}
+#scrollsec .table  {
+  
+}
+/* scrollsec-end */
 
 
 /* scrollsec2-end */
